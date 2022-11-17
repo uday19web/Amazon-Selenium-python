@@ -1,0 +1,25 @@
+we can use different browser to run the code for that need to download the driver into
+local system
+***************************************************************************************
+For chrome browser
+driver link = "https://chromedriver.chromium.org/downloads"
+
+commands
+
+from selenium.webdriver.chrome.service import Service
+
+service_obj =Service(r"chrome driver path")
+driver = webdriver.Chrome(service=service_obj)
+*********************************************************************************************
+
+***************************************************************************************
+For chrome browser
+driver link = "https://github.com/mozilla/geckodriver/releases"
+
+commands
+
+from selenium.webdriver.chrome.service import Service
+
+service_obj =Service(r"chrome driver path")
+driver = webdriver.Firefox(service=service_obj)
+*********************************************************************************************
